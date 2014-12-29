@@ -2,6 +2,8 @@
 //  AppDelegate.m
 //  Splitr
 //
+//  A Speedrun Splitting Program
+//
 //  Created by Patrick van Zadel on 29/12/14.
 //  Copyright (c) 2014 Patrick van Zadel. All rights reserved.
 //
