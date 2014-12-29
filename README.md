@@ -1,4 +1,4 @@
-[Imgur](http://i.imgur.com/SQJOtz5.png)
+![Splitr](http://i.imgur.com/SQJOtz5.png)
 
 Splitr is a Split Timer Application for Speedrunning.
 The application is made natively for OSX that will hopefully serve as the main Split Timer in the Mac/OSX Speedrun community.
