@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "MZTimerLabel.h"
 
 @implementation ViewController
 
@@ -14,6 +15,16 @@
     [super viewDidLoad];
 
     // Do any additional setup after loading the view.
+    MZTimerLabel *splitTimer = [[MZTimerLabel alloc] init];
+    splitTimer.frame = CGRectMake(100, 100, 100, 50);
+    splitTimer.timeLabel.editable = FALSE;
+    splitTimer.timeLabel.selectable = FALSE;
+    splitTimer.timeLabel.font = [NSFont systemFontOfSize:20.0f];
+    splitTimer.timeLabel.textColor = [NSColor blackColor];
+    
+    [self.view addSubview: splitTimer];
+    [splitTimer start];
+    
 }
 
 - (void)setRepresentedObject:(id)representedObject {

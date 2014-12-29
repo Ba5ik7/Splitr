@@ -14,6 +14,7 @@
 		CDAA0F171A518BCD00FD96D7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDAA0F161A518BCD00FD96D7 /* Images.xcassets */; };
 		CDAA0F1A1A518BCD00FD96D7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDAA0F181A518BCD00FD96D7 /* Main.storyboard */; };
 		CDAA0F261A518BCD00FD96D7 /* SplitrTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CDAA0F251A518BCD00FD96D7 /* SplitrTests.m */; };
+		CDC047B21A51DF4900D8EF78 /* MZTimerLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = CDC047B11A51DF4900D8EF78 /* MZTimerLabel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		CDAA0F1F1A518BCD00FD96D7 /* SplitrTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SplitrTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDAA0F241A518BCD00FD96D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CDAA0F251A518BCD00FD96D7 /* SplitrTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SplitrTests.m; sourceTree = "<group>"; };
+		CDC047B01A51DF4900D8EF78 /* MZTimerLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MZTimerLabel.h; sourceTree = "<group>"; };
+		CDC047B11A51DF4900D8EF78 /* MZTimerLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MZTimerLabel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +84,7 @@
 		CDAA0F081A518BCC00FD96D7 /* Splitr */ = {
 			isa = PBXGroup;
 			children = (
+				CDC047A41A51DD7B00D8EF78 /* Core */,
 				CDAA0F0B1A518BCD00FD96D7 /* AppDelegate.h */,
 				CDAA0F0C1A518BCD00FD96D7 /* AppDelegate.m */,
 				CDAA0F101A518BCD00FD96D7 /* ViewController.h */,
@@ -117,6 +121,32 @@
 				CDAA0F241A518BCD00FD96D7 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CDC047A41A51DD7B00D8EF78 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				CDC047A51A51DD9400D8EF78 /* Libs */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		CDC047A51A51DD9400D8EF78 /* Libs */ = {
+			isa = PBXGroup;
+			children = (
+				CDC047AF1A51DF4900D8EF78 /* MZTimerLabel */,
+			);
+			name = Libs;
+			sourceTree = "<group>";
+		};
+		CDC047AF1A51DF4900D8EF78 /* MZTimerLabel */ = {
+			isa = PBXGroup;
+			children = (
+				CDC047B01A51DF4900D8EF78 /* MZTimerLabel.h */,
+				CDC047B11A51DF4900D8EF78 /* MZTimerLabel.m */,
+			);
+			name = MZTimerLabel;
+			path = Core/Libs/MZTimerLabel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -218,6 +248,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CDC047B21A51DF4900D8EF78 /* MZTimerLabel.m in Sources */,
 				CDAA0F121A518BCD00FD96D7 /* ViewController.m in Sources */,
 				CDAA0F151A518BCD00FD96D7 /* Splitr.xcdatamodeld in Sources */,
 				CDAA0F0F1A518BCD00FD96D7 /* main.m in Sources */,
@@ -408,6 +439,7 @@
 				CDAA0F2B1A518BCD00FD96D7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CDAA0F2C1A518BCD00FD96D7 /* Build configuration list for PBXNativeTarget "SplitrTests" */ = {
 			isa = XCConfigurationList;
@@ -416,6 +448,7 @@
 				CDAA0F2E1A518BCD00FD96D7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
